@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Portfolio: Game of Life</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="generic.html">Ipsum veroeros</a></li>
+							<li><a href="generic.html">Tempus etiam</a></li>
+							<li><a href="generic.html">Consequat dolor</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Conway's Game of Life</h1>
+							<span class="image main"><img src="images/gameoflifeheader.jpg" alt="" /></span>
+							<h2>Tech</h2>
+							<p>This app was built using React and bootstrapped with create-react-app. Styling is done with plain CSS. The app is deployed on Vercel (previously Zeit).</p>
+							<h2>About the app</h2>
+							<p>This project is my implementation of a computer science classic, John Conway's "Game of Life."
+							The program simulates cellular automaton and allows the user to observe how their initial
+							population (generation 0) will evolve over time based on the rules of the game. <a href="https://www.frontiersin.org/articles/10.3389/fcimb.2016.00057/full" target="_blank">Click here to learn more about why this game is still relevant today</a> (link to an article on Frontiers in Cellular and Infection Microbiology).</p>
+							<p>A user can set the initial population by clicking on the individual squares or by using the random population button that generates a random layout for the grid. The user can then step through each following generation of the initial population using the "see next generation" button. Alternatively, instead of viewing each generation one by one, the user can launch the simulation, and select their preferred simulation speed (slow, average, or fast). While the simulation is running, the user cannot change the state of any cells on the grid, but they may stop the simulation, make adjustments to the grid, and resume.</p>
+							<p>The app interface also includes the rules of Conway's Game of Life for those unfamiliar with it.</p>
+							<h2>Learning process</h2>
+							<p>Something new I learned during this project is React's useCallback hook. Previously, I'd only used useState and useEffect, as well as my own custom hooks. It was also fun making this app mobile and tablet-responsive using simple media queries in CSS. My favorite part about this app is that I got to build a scientific simulation. I strongly believe that just about every industry today would advance in leaps and bounds if they had access to better software tools, and this project is just the beginning of what I hope to contribute to the scientific community.</p>
+							
+							<button>
+							<a href="https://game-of-life-rosy.vercel.app/" target="_blank">view demo</a>
+							</button>
+							<button>
+							<a href="https://github.com/kp1129/game-of-life" target="_blank">source code</a>
+							</button>
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
